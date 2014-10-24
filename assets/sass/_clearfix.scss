@@ -1,11 +1,14 @@
-.clearfix
-  *zoom: 1
+.clearfix {
+  *zoom: 1;
 
   &:before,
-  &:after
-    display: table
-    line-height: 0
-    content: ""
+  &:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
 
-  &:after
-    clear: both
+  &:after {
+    clear: both;
+  }
+}
