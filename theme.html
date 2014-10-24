@@ -41,7 +41,7 @@
 
     {% else  %}
 
-    <header class="container">
+    <header class="container clearfix">
       <div class="six columns logo">
         <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}" />
         <span>{{ site.name }}</span>
@@ -59,13 +59,13 @@
     </header>
 
     {% if site.cover_photo %}
-    <section id="feature" class="container">
+    <section id="feature" class="container clearfix">
       <img src="{{ site.cover_photo }}" alt="{{ site.name }}">
     </section>
     {% endif %}
 
 
-    <div class="container" role="main">
+    <div class="container clearfix" role="main">
     {% if is_home or is_tag %}
 
       {% if is_tag %}
@@ -171,7 +171,7 @@
 
     </div>
 
-    <footer class="clearfix">
+    <footer class="clearfix clearfix">
       <ul class="social six columns">
         {% if site.twitter %}
         <li>
