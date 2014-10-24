@@ -2,6 +2,8 @@
 
 This repo contains everything you'll need to start building your own custom themes for [Postach.io](http://postach.io).
 
+(Work in progress)
+
 
 ## Theme Code
 
